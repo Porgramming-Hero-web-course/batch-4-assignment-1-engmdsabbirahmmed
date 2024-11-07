@@ -13,7 +13,7 @@
         }
     }
 
-    const car = new Car('Honda', 'CIVIC', 2054);
+    const car = new Car('Honda', 'CIVIC', 2023);
     const carManufactureYear: number = car.year
 
     const getCarAge = (year: number) => {
@@ -26,7 +26,7 @@
             return "Please write the Authentic Year of Car";
         }
     }
-    // console.log(getCarAge(carManufactureYear));
+    console.log(getCarAge(carManufactureYear));
 
 
 

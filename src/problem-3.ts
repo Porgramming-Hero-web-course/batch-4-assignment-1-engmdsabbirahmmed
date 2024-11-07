@@ -19,6 +19,7 @@
     const mySentence: string = "Hello from web. I love the web so much. After six month, i will be a good web developer";
     const myWord: string = "Web";
 
-    console.log(countWordOccurrences(mySentence, myWord))
+    const myCountWordOccurrences = countWordOccurrences(mySentence, myWord);
+    // console.log(myCountWordOccurrences)
 
 }

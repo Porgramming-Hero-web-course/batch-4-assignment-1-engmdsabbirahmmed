@@ -17,6 +17,6 @@
     }
     
     
-    const validateKeysResult = validateKeys(user, ['name', 'age', 'profession'])
+    const validateKeysResult = validateKeys(user, ['name', 'age', 'address'])
     // console.log(validateKeysResult);
 }

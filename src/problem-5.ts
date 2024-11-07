@@ -18,5 +18,5 @@
     }
 
     const userAge = getProperty(user, 'profession');
-    console.log(userAge);
+    // console.log(userAge);
 }

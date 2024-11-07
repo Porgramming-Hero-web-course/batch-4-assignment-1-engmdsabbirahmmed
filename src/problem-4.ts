@@ -54,7 +54,7 @@
     const circleArea = calculateShapeArea(circle);
     const rectangleArea = calculateShapeArea(rectangle);
 
-    console.log(circleArea);
-    console.log(rectangleArea);
+    // console.log(circleArea);
+    // console.log(rectangleArea);
 
 }

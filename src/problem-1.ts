@@ -7,5 +7,5 @@
     }
 
     const myArray: number[] = [43, 56, 78, 98, 83, 33, 21];
-    console.log(sumArray(myArray))
+    // console.log(sumArray(myArray))
 }
