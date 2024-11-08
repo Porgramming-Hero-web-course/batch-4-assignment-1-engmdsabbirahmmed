@@ -17,6 +17,6 @@
         profession: 'A learner'
     }
 
-    const userAge = getProperty(user, 'profession');
+    const userAge = getProperty(user, 'age');
     // console.log(userAge);
 }

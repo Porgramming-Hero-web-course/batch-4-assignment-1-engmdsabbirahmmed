@@ -9,7 +9,7 @@
 
     type MyUpdateProfileData = Partial<MyProfile>
 
-    const updateProfile = (profile: MyProfile, updatedData: MyUpdateProfileData) => {
+    const updateProfile = (profile: MyProfile, updatedData: MyUpdateProfileData): object => {
         return { ...profile, ...updatedData }
     };
 
@@ -19,6 +19,6 @@
         email: 'sabbir@gmail.com'
     }
 
-    const updatedProfile = updateProfile(myProfile,{age: 24});
+    const updatedProfile = updateProfile(myProfile, { age: 24 });
     // console.log(updatedProfile)
 }

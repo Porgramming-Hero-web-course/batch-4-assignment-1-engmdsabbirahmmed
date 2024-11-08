@@ -18,7 +18,7 @@
     function calculateCircleArea(radius: number): number {
         const circleAreaString = (Math.PI * radius * radius).toFixed(2);
         const circleAreaNumber = parseFloat(circleAreaString);
-        return circleAreaNumber
+        return circleAreaNumber;
     }
 
     function calculateRectangleArea(height: number, width: number): number {
@@ -28,7 +28,7 @@
         return rectangleAreaNumber;
     }
 
-    const calculateShapeArea = (shape: Shape) => {
+    const calculateShapeArea = (shape: Shape): string | number => {
         if (shape.shape === 'circle') {
             return calculateCircleArea(shape.radius);
         }
@@ -42,7 +42,7 @@
 
     const circle: Circle = {
         shape: 'circle',
-        radius: 10
+        radius: 10,
 
     }
     const rectangle: Rectangle = {
